@@ -204,6 +204,35 @@ footer a:hover {
 
 
 
+/* About */
+
+.about-page-sections {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    grid-gap: 90px;
+    text-align: center;
+}
+
+#imgBox {
+    display: inline-block;
+    overflow: hidden;
+}
+
+.about-page-sections img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+    object-position: 50% 0;
+    transition: 0.5s ease;
+    display: block;
+}
+
+.about-page-sections img:hover {
+    object-fit: cover;
+    transform: scale(1.06);
+}
+
 
 
 
