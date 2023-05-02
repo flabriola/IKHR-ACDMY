@@ -1,16 +1,73 @@
 body {
     color: black;
-    font-family: gravesend-sans, sans-serif;
+    font-family: var(--font-body);
+    /* font-weight: lighter; */
+    letter-spacing: 3px;
+    text-transform: Uppercase;
 }
 /* HEADER */
 
 header {
-    height: 70px;
     width: 100%;
-    background-color: white;
-    overflow: auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
 }
 
-.icon-bar {
+header a {
+    margin: 0px 1em;
+    transition: 0.2 ease;
+    text-decoration: none;
+    color: black;
+}
 
+header a:hover {
+    color: rgb(113, 113, 113);
+}
+
+.icon-bar{
+    padding: 20px 55px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.icon-bar-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.icon-bar-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.icon-bar-center {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;    /* delete after using correct image without extra space on bottom */
+}
+
+
+
+#home-icon img{
+    width: 140px;
+}
+
+
+
+.one{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+:root {
+    --font-body: "DIN Next", sans-serif;
 }
