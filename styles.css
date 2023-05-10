@@ -4,6 +4,10 @@
     border: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: black;
     font-family: var(--font-body);
@@ -206,6 +210,18 @@ footer a:hover {
 
 /* About */
 
+#aboutIkhr {
+    opacity: 1;
+}
+
+#aboutJiujitsu {
+    opacity: 1;
+}
+
+#aboutFacility {
+    opacity: 1;
+}
+
 .about-page-sections {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -233,8 +249,13 @@ footer a:hover {
     transform: scale(1.04);
 }
 
-.about-one {
-    display: block;
+#about-facility {
+    display: none;
+    text-align: center;
+}
+
+#about-jiujitsu {
+    display: none;
     text-align: center;
 }
 
