@@ -7,12 +7,10 @@ function showAboutSection(id) {
 
     var facility = document.getElementById(id);
     facility.style.display = "block";
-    aboutRefs.forEach(changeOpacity, id);
-}
-
-function changeOpacity(item, index, arr, id) {
-    if(item != id){
-        var facilityRef = document.getElementById(item);
-        facilityRef.style.opacity = "0.1";
+    for(let i=0; i<3; i++){
+        let sec = document.getElementById(aboutSections[i]);
+        if(sec != facility){
+            sec.style.display = "none";
+        }
     }
 }
