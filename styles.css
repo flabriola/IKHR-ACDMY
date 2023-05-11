@@ -382,25 +382,28 @@ footer a:hover {
     margin: 5em;
 }
 
+#about-ikhr{
+    display: none;
+}
 
-
-
+#ikhr-introduction {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 54em;
+    margin: 0 auto;
+}
 
 #ikhr-title {
     justify-content: center;
     text-align: center;
 }
 
-
-
-
-
-
-
 #mission-vision {
     display: grid;
     grid-template-columns: auto 1px auto;
     justify-content: center;
+    margin: 10em 0;
 }
 
 #mission-text, #vision-text {
@@ -418,10 +421,6 @@ footer a:hover {
 #m-v-separator {
     background-color: black;
 }
-
-
-
-
 
 
 
