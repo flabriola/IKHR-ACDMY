@@ -433,6 +433,31 @@ footer a:hover {
 
 
 
+
+
+
+/* Schedule */
+
+.schedule-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.lessons-container {
+    display: grid;
+    grid-template-columns: auto 1px auto;
+    margin: 4em;
+}
+
+.group-container h3{
+    font-weight: bold;
+}
+
+
+
+
 :root {
     --font-body: "DIN Next", sans-serif;
 }
