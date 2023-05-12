@@ -122,6 +122,9 @@ footer {
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 11px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
 footer a {
