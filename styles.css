@@ -122,8 +122,6 @@ footer {
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 11px;
-    position: absolute;
-    bottom: 0;
 }
 
 footer a {
@@ -279,7 +277,7 @@ footer a:hover {
     height: 270px;
     width: 77.4em;;
     object-fit: cover;
-    object-position: 0 30%;
+    object-position: 0 35%;
     transition: 0.5s ease;
     display: block;
 }
