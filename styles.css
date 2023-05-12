@@ -213,13 +213,11 @@ footer a:hover {
 .external-h3 {
     text-decoration: none;
     color: black;
-    font-weight:bold;
 }
 
 .external-h3:hover {
     color: rgb(85, 85, 85);
 }
-
 #aboutIkhr {
     opacity: 1;
 }
