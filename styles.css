@@ -218,6 +218,7 @@ footer a:hover {
 .external-h3:hover {
     color: rgb(85, 85, 85);
 }
+
 #aboutIkhr {
     opacity: 1;
 }
@@ -290,6 +291,7 @@ footer a:hover {
     grid-template-columns: auto auto;
     justify-content: center;
     align-items: center;
+    background-image: url(/images/IMG_3192.png);
 }
 
 #about-separator {
