@@ -438,6 +438,11 @@ footer a:hover {
 
 /* Schedule */
 
+.schedule-page {
+    display: flex;
+    justify-content: center;
+}
+
 .schedule-grid {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
@@ -453,7 +458,7 @@ footer a:hover {
 
 .group-container h3{
     font-weight: bold;
-    
+
 }
 
 
