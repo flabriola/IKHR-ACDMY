@@ -445,7 +445,10 @@ footer a:hover {
     max-width: 30%;
 }
 
-
+.schedule-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto;
+}
 
 .lessons-container {
     display: grid;
