@@ -274,10 +274,10 @@ footer a:hover {
 }
 
 .main-facility-img img {
-    height: 270px;
+    height: 30em;
     width: 77.4em;;
     object-fit: cover;
-    object-position: 0 45%;
+    object-position: 0 40%;
     transition: 0.5s ease;
     display: block;
 }
@@ -314,7 +314,7 @@ footer a:hover {
 }
 
 #studio-info-right {
-    text-align: left;
+    text-align: center;
     margin: 3.7em;
 }
 
