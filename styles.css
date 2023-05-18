@@ -442,7 +442,6 @@ footer a:hover {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    text-align: center;
 }
 
 #schedule {
@@ -465,7 +464,7 @@ footer a:hover {
 }
 
 .group-container {
-    margin-right: 3em;
+    max-width: 9em;
     align-items: center;
 }
 
