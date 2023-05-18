@@ -439,10 +439,24 @@ footer a:hover {
 /* Schedule */
 
 
+.schedule-grid {
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+}
 
 .lessons-container {
     display: grid;
     grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.group-container {
+    margin-right: 1em;
+}
+
+.time-container { 
+    margin-left: 1em;
 }
 
 
