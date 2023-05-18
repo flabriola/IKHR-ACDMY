@@ -460,18 +460,18 @@ footer a:hover {
 
 .lessons-container {
     display: grid;
-    grid-template-columns: 12em 1px auto;
+    grid-template-columns: 11em 1px auto;
     align-items: center;
     margin: 1em;
 }
 
 .group-container {
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .group-container h3 {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .time-container { 
@@ -479,9 +479,22 @@ footer a:hover {
     margin-left: 2em;
 }
 
+.lessons-container h3 {
+    font-size: 12px;
+}
+
 .line {
-    background-color: black;
+    background-color: rgb(205, 205, 205);
     height: 40px;
+}
+
+.private-info a{
+    text-decoration: none;
+    color: rgb(15, 2, 93);
+}
+
+.private-info a:hover{
+    font-weight: bold;
 }
 
 
