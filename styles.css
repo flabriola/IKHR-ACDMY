@@ -438,11 +438,17 @@ footer a:hover {
 
 /* Schedule */
 
-
 #schedule-page {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+}
+
+#schedule {
+    display: flex;
+    justify-content: center;
     max-width: 30%;
+    margin: 0 auto;
 }
 
 .schedule-grid {
