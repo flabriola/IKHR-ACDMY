@@ -438,30 +438,11 @@ footer a:hover {
 
 /* Schedule */
 
-#schedule-page {
-    display: flex;
-    justify-content: center;
-}
 
-.schedule-grid {
-    display: grid;
-    grid-template-rows: auto auto auto auto auto;
-    justify-content: center;
-    align-items: center;
-}
 
 .lessons-container {
     display: grid;
-    grid-template-columns: auto 1px auto;
-    margin: 1.5em;
-}
-
-.group-container h3{
-    font-weight: bold;
-}
-
-.time-container {
-    margin-left: 1em;
+    grid-template-columns: auto auto;
 }
 
 
