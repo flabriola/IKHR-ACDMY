@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta property="page-description" content="Home page for Ikehara Jiu Jitsu Academy.">
+        <meta property="about-website" content="IKHR ACDMY website. Pricing and schedule for Jiu Jitsu Classes in Downtown Dubai">
+        <meta property="about-ikhr" content="Jiu Jitsu Lessons for Kids, Adults, Women and Men">
+        <meta property="description" content="BJJ, Brazilian Jiu Jitsu, Jiu Jitsu for Women, Jiu Jitsu for Kids, BJJ for Adults in Dubai">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <title>
             IKHR ACDMY - Home
         </title>
@@ -24,6 +30,23 @@
                 <a class="trial-button" href="https://wa.link/0m0ykz"><h3 id="book-trial-header">book free trial</h3></a>
             </div>
         </div>
+
+        <div class="mobile-header">
+            <div id="mySidepanel" class="sidepanel">
+                <a class = "icon" id = "about-icon" href="about">ABOUT</a>
+                <a class = "icon" id = "schedule-icon" href="schedule">SCHEDULE</a>
+                <a class = "icon" id = "pricing-icon" href="pricing">PRICING</a>
+                <a class = "icon"  href="findus">find us</a>
+                <a class = "icon" id = "contact-icon" href="contact">contact us</a>
+            </div>
+            <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+            <div class="icon-bar-center"><a class="icon-center" id="home-icon" href="http://ikhracademy.com/"><img src="/images/IKHR-Logo.png"></a></div>
+
+            <div><a class = "icon-right" id = "location-icon" href="findus"><i class="fas fa-location-arrow"></i></a></div>
+        </div>
+
+        <script src="script.js"></script>
     </header>
 
 
@@ -33,14 +56,15 @@
     <main>
 
         <body>
+            
 
-            <section class="home-section-one">
-                <img width="100%" src="/images/ballers-studio.png">
+            <section class="home-section-one" onclick="closeNav()">
+                <img width="100%" src="/images/ballers-studio.png" alt="Ballers Dubai Studio">
             </section>
 
-            <div id="home-separator"></div>
+            <div id="home-separator" onclick="closeNav()"></div>
 
-            <section class="home-section-two">
+            <section class="home-section-two" onclick="closeNav()">
                 <div class="home-section-two-location">
                     <h2>IKHR ACDMY</h2>
                     <h4>BALLERS</h4>
@@ -50,11 +74,11 @@
                     <a class="home-button" id="location-icon" href="findus"><i class="fas fa-location-arrow"></i></a>
                 </div>
                 <div class="home-section-two-image">
-                    <a href="findus"><img src="/images/KUB08634-576x1024.jpeg"></a>
+                    <a href="findus"><img src="/images/KUB08634-576x1024.jpeg" alt="Find IKHR Jiu Jitsu Academy"></a>
                 </div>
             </section>
 
-            <div id="home-separator"></div>
+            <div id="home-separator" onclick="closeNav()"></div>
 
         </body>
 

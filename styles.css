@@ -47,7 +47,7 @@ h3 {
 h4 {
     color: black;
     font-family: var(--font-body);
-    font-weight: lighter; 
+    font-weight: lighter;
     letter-spacing: 3px;
     text-transform: Uppercase;
     font-size: 10px;
@@ -77,7 +77,7 @@ header a:hover {
     color: rgb(137, 137, 137);
 }
 
-.icon-bar{
+.icon-bar {
     padding: 20px 55px;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -98,10 +98,11 @@ header a:hover {
 .icon-bar-center {
     display: flex;
     align-items: center;
-    margin-top: 6px;    /* delete after using correct image without extra space on bottom */
+    margin-top: 6px;
+    /* delete after using correct image without extra space on bottom */
 }
 
-#home-icon img{
+#home-icon img {
     width: 55px;
 }
 
@@ -119,6 +120,9 @@ header a:hover {
 /* Footer */
 
 footer {
+    position: fixed;
+    margin-top: auto;
+    bottom: 0;
     width: 100%;
     background-color: rgb(255, 255, 255);
     font-size: 11px;
@@ -135,10 +139,10 @@ footer a:hover {
     color: rgb(137, 137, 137);
 }
 
-.footer-items{
+.footer-items {
     padding: 20px 55px;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
 }
 
 .footer-icons-left {
@@ -167,7 +171,7 @@ footer a:hover {
     height: 8em;
 }
 
-.home-section-one{
+.home-section-one {
     display: flex;
     justify-content: center;
 }
@@ -192,11 +196,13 @@ footer a:hover {
     text-align: center;
 }
 
-.home-section-two-location h2, h3, h4{
+.home-section-two-location h2,
+h3,
+h4 {
     margin: 10px 0;
 }
 
-.home-section-two-location h2{
+.home-section-two-location h2 {
     margin-bottom: 18px;
 }
 
@@ -275,7 +281,8 @@ footer a:hover {
 
 .main-facility-img img {
     height: 28em;
-    width: 60.4em;;
+    width: 60.4em;
+    ;
     object-fit: cover;
     object-position: 0 40%;
     transition: 0.5s ease;
@@ -297,7 +304,7 @@ footer a:hover {
     background-color: black;
     height: 0.05em;
     margin: 0 auto;
-    max-width:77.4em;
+    max-width: 77.4em;
 }
 
 #studio-info-left {
@@ -305,7 +312,7 @@ footer a:hover {
     overflow: hidden;
 }
 
-#studio-info-left img{
+#studio-info-left img {
     height: 400px;
     width: 250px;
     object-fit: cover;
@@ -317,14 +324,14 @@ footer a:hover {
     text-align: center;
     margin: 3.7em;
     justify-content: center;
-    
+
 }
 
-#studio-info-right h2{
+#studio-info-right h2 {
     margin-bottom: 2em;
 }
 
-#studio-info-right h4{
+#studio-info-right h4 {
     margin-top: 2em;
 }
 
@@ -340,7 +347,7 @@ footer a:hover {
     max-width: 100%;
 }
 
-#ballers-more-images-three img{
+#ballers-more-images-three img {
     max-width: auto;
     max-height: 17.82em;
 }
@@ -350,7 +357,7 @@ footer a:hover {
     max-height: 1000px;
 }
 
-.ballers-more-images  {
+.ballers-more-images {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -393,7 +400,7 @@ footer a:hover {
     margin: 5em;
 }
 
-#about-ikhr{
+#about-ikhr {
     display: none;
 }
 
@@ -417,13 +424,15 @@ footer a:hover {
     margin: 10em 0;
 }
 
-#mission-text, #vision-text {
+#mission-text,
+#vision-text {
     max-width: 18em;
-    text-align:justify;
+    text-align: justify;
     margin: 0 4em;
 }
 
-#mission-text h2, #vision-text h2 {
+#mission-text h2,
+#vision-text h2 {
     text-align: center;
 }
 
@@ -476,7 +485,7 @@ footer a:hover {
     font-weight: 600;
 }
 
-.time-container { 
+.time-container {
     text-align: left;
     margin-left: 2em;
 }
@@ -490,7 +499,7 @@ footer a:hover {
     height: 40px;
 }
 
-.private-info a{
+.private-info a {
     text-decoration: none;
     color: rgb(15, 2, 93);
 }
@@ -507,7 +516,7 @@ footer a:hover {
 }
 
 #schedule-buttons:hover {
-    background-color:  rgb(181, 212, 212);
+    background-color: rgb(181, 212, 212);
 }
 
 
@@ -551,7 +560,7 @@ footer a:hover {
     margin-left: 3em;
 }
 
-.details h4{
+.details h4 {
     font-weight: lighter;
 }
 
@@ -576,7 +585,7 @@ footer a:hover {
 }
 
 #join-button:hover {
-    background-color:  rgb(192, 225, 225);
+    background-color: rgb(192, 225, 225);
 }
 
 
@@ -603,19 +612,21 @@ footer a:hover {
     text-align: center;
 }
 
-.find-section-two-location h2, h3, h4{
+.find-section-two-location h2,
+h3,
+h4 {
     margin: 10px 0;
 }
 
-.find-section-two-location h2{
+.find-section-two-location h2 {
     margin-bottom: 18px;
 }
 
 
 #find-icon-map {
     text-decoration: none;
-    color: rgb(151, 211, 211); 
-    transition: all 0.2s ;
+    color: rgb(151, 211, 211);
+    transition: all 0.2s;
 }
 
 #find-icon-map:hover {
@@ -644,7 +655,7 @@ footer a:hover {
     margin: 4em 1em 4em 0;
 }
 
-.contacts h3{
+.contacts h3 {
     margin: 0 0 2em 0;
 }
 
@@ -653,7 +664,7 @@ footer a:hover {
     text-decoration: none;
 }
 
-.contact-img{
+.contact-img {
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -662,7 +673,8 @@ footer a:hover {
 
 .contact-img img {
     height: 19em;
-    width: 60em;;
+    width: 60em;
+    ;
     object-fit: cover;
     object-position: 0 40%;
     transition: 0.5s ease;
@@ -708,7 +720,7 @@ footer a:hover {
 }
 
 .book-trial:hover {
-    background-color:  rgb(192, 225, 225);
+    background-color: rgb(192, 225, 225);
 }
 
 
@@ -727,10 +739,772 @@ footer a:hover {
 }
 
 #book-trial-header:hover {
-    background-color:  rgb(192, 225, 225);
+    background-color: rgb(192, 225, 225);
 }
 
 
 :root {
     --font-body: "DIN Next", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile-header {
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* Media Specific CSS */
+
+@media screen and (max-width: 480px) {
+
+
+    body {
+        color: black;
+        font-family: var(--font-body);
+        /* font-weight: lighter; */
+        letter-spacing: 3px;
+        text-transform: Uppercase;
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    h1 {
+        color: black;
+        font-family: var(--font-body);
+        /* font-weight: lighter; */
+        letter-spacing: 3px;
+        text-transform: Uppercase;
+        font-size: large;
+    }
+
+    h2 {
+        color: black;
+        font-family: var(--font-body);
+        font-weight: 500;
+        letter-spacing: 3px;
+        text-transform: Uppercase;
+        font-size: medium;
+    }
+
+    h3 {
+        color: black;
+        font-family: var(--font-body);
+        font-weight: lighter;
+        letter-spacing: 3px;
+        text-transform: Uppercase;
+        font-size: small;
+    }
+
+    h4 {
+        color: black;
+        font-family: var(--font-body);
+        font-weight: lighter;
+        letter-spacing: 3px;
+        text-transform: Uppercase;
+        font-size: 10px;
+    }
+
+
+    /* HEADER */
+
+    header {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        font-size: 11px;
+        position: fixed;
+        top: 0;
+    }
+
+    .mobile-header {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+    }
+
+    .icon-bar {
+        display: none;
+    }
+
+    .sidepanel {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ffffff;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.7s;
+    }
+
+    /* The sidepanel links */
+    .sidepanel a {
+        padding: 8px 8px 30px 24px;
+        text-decoration: none;
+        font-size: 1em;
+        color: #000000;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* Style the button that is used to open the sidepanel */
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border: none;
+        background-color: white;
+    }
+
+    /* Footer */
+
+    footer {
+        position: fixed;
+        margin-top: auto;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        font-size: 11px;
+    }
+
+    footer a {
+        margin: 18px 1em;
+        transition: all 0.15s ease;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    .footer-icons-left {
+        display: none;
+    }
+
+    .footer-items-right {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .footer-socials-icons {
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Home page */
+
+    #home-separator {
+        height: 7em;
+    }
+
+    .home-section-one {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-section-two {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        column-gap: 25px;
+    }
+
+    .home-section-two-image img {
+        height: 15em;
+        width: 10em;
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+
+    .home-section-two-location {
+        height: auto;
+        width: 8em;
+        text-align: center;
+    }
+
+    .home-section-two-location h2,
+    h3,
+    h4 {
+        margin: 10px 0;
+        font-size: ;
+    }
+
+    .home-section-two-location h2 {
+        margin-bottom: 18px;
+    }
+
+    .home-button {
+        text-decoration: none;
+        color: black;
+        font-size: smaller;
+    }
+
+
+
+    /* About */
+
+    .external-h3 {
+        text-decoration: none;
+        color: black;
+    }
+
+    .external-h3:hover {
+        color: rgb(85, 85, 85);
+    }
+
+    #aboutIkhr {
+        opacity: 1;
+    }
+
+    #aboutJiujitsu {
+        opacity: 1;
+    }
+
+    #aboutFacility {
+        opacity: 1;
+    }
+
+    .about-page-sections {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        grid-gap: 90px;
+        text-align: center;
+    }
+
+    #imgBox {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .about-page-sections img {
+        height: 33em;
+        width: 22em;
+        object-fit: cover;
+        object-position: 50% 0;
+        transition: 0.5s ease;
+        display: block;
+    }
+
+    .about-page-sections img:hover {
+        object-fit: cover;
+        transform: scale(1.04);
+    }
+
+    #about-facility {
+        display: none;
+        text-align: center;
+    }
+
+    #about-jiujitsu {
+        display: none;
+        text-align: center;
+    }
+
+    .main-facility-img {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .main-facility-img img {
+        height: 28em;
+        width: 60.4em;
+        ;
+        object-fit: cover;
+        object-position: 0 40%;
+        transition: 0.5s ease;
+        display: block;
+    }
+
+    #facility-title {
+        margin-bottom: 3em;
+    }
+
+    .about-facility-studio-info {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about-separator {
+        background-color: black;
+        height: 0.05em;
+        margin: 0 auto;
+        max-width: 77.4em;
+    }
+
+    #studio-info-left {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    #studio-info-left img {
+        height: 400px;
+        width: 250px;
+        object-fit: cover;
+
+        transition: 0.5s ease;
+    }
+
+    #studio-info-right {
+        text-align: center;
+        margin: 3.7em;
+        justify-content: center;
+
+    }
+
+    #studio-info-right h2 {
+        margin-bottom: 2em;
+    }
+
+    #studio-info-right h4 {
+        margin-top: 2em;
+    }
+
+    #ballers-more-title {
+        margin-bottom: 2em;
+    }
+
+    #ballers-more-title-one {
+        margin-bottom: 3em;
+    }
+
+    #b-d-c {
+        max-width: 100%;
+    }
+
+    #ballers-more-images-three img {
+        max-width: auto;
+        max-height: 17.82em;
+    }
+
+    .ballers-more-images img {
+        max-width: auto;
+        max-height: 1000px;
+    }
+
+    .ballers-more-images {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 77.4em;
+    }
+
+
+    #jiujitsu-introduction {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        max-width: 77.4em;
+        margin: 0 auto;
+    }
+
+    .jjImgBox {
+        display: inline-block;
+        overflow: hidden;
+    }
+
+    .about-two img {
+        height: 22em;
+        width: 15em;
+        object-fit: cover;
+        transition: 0.5s ease;
+        display: block;
+    }
+
+    #jjInfoBoxes {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #jjInfoText {
+        text-align: left;
+        align-items: baseline;
+        max-width: 18em;
+        margin: 5em;
+    }
+
+    #about-ikhr {
+        display: none;
+    }
+
+    #ikhr-introduction {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        max-width: 54em;
+        margin: 0 auto;
+    }
+
+    #ikhr-title {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #mission-vision {
+        display: grid;
+        grid-template-columns: auto 1px auto;
+        justify-content: center;
+        margin: 10em 0;
+    }
+
+    #mission-text,
+    #vision-text {
+        max-width: 18em;
+        text-align: justify;
+        margin: 0 4em;
+    }
+
+    #mission-text h2,
+    #vision-text h2 {
+        text-align: center;
+    }
+
+
+
+    #m-v-separator {
+        background-color: black;
+    }
+
+
+
+
+
+
+    /* Schedule */
+
+    #schedule-page {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 9em 0;
+    }
+
+    #schedule {
+        display: flex;
+        justify-content: center;
+        max-width: 30%;
+        margin: 5em auto;
+    }
+
+    .schedule-grid {
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+    .lessons-container {
+        display: grid;
+        grid-template-columns: 11em 1px auto;
+        align-items: center;
+        margin: 1em;
+    }
+
+    .group-container {
+        align-items: center;
+        text-align: left;
+    }
+
+    .group-container h3 {
+        font-weight: 600;
+    }
+
+    .time-container {
+        text-align: left;
+        margin-left: 2em;
+    }
+
+    .lessons-container h3 {
+        font-size: 12px;
+    }
+
+    .line {
+        background-color: rgb(205, 205, 205);
+        height: 40px;
+    }
+
+    .private-info a {
+        text-decoration: none;
+        color: rgb(15, 2, 93);
+    }
+
+    #schedule-buttons {
+        text-decoration: none;
+        color: rgb(11, 0, 68);
+        background-color: rgb(219, 255, 255);
+        padding: 0.5em 0.7em;
+        justify-content: center;
+        border-radius: 12px;
+        font-size: 10px;
+        transition: all 0.2s;
+    }
+
+    #schedule-buttons:hover {
+        background-color: rgb(181, 212, 212);
+    }
+
+
+    /* pricing page */
+
+    .pricing-page {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 10em 0;
+        margin-bottom: 9em;
+    }
+
+    #prices-page-title {
+        margin-bottom: 4em;
+    }
+
+    .prices-container {
+        display: grid;
+        grid-template-columns: auto 1px auto;
+        margin: 0 auto;
+    }
+
+    .prices-sep {
+        background-color: rgb(206, 206, 206);
+    }
+
+    .p-titles {
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+
+    .description {
+        text-align: left;
+        margin-right: 7em;
+    }
+
+    .amount {
+        text-align: left;
+        margin-left: 3em;
+    }
+
+    .details h4 {
+        font-weight: lighter;
+    }
+
+    .pricing-page a {
+        text-decoration: none;
+        margin: 0 auto;
+    }
+
+    #join-button {
+        margin-top: 5em;
+        text-decoration: none;
+        color: rgb(11, 0, 68);
+        background-color: rgb(219, 255, 255);
+        width: 12em;
+        height: 3em;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 16px;
+        font-size: 10px;
+        transition: all 0.2s;
+    }
+
+    #join-button:hover {
+        background-color: rgb(192, 225, 225);
+    }
+
+
+    /* find us page */
+
+    .find-section-two {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        margin: 3.5em 0;
+    }
+
+    .find-section-two-image img {
+        height: 30em;
+        width: 20em;
+        object-fit: cover;
+        object-position: 100% 0;
+    }
+
+    .find-section-two-location {
+        height: auto;
+        width: 20em;
+        text-align: center;
+    }
+
+    .find-section-two-location h2,
+    h3,
+    h4 {
+        margin: 10px 0;
+    }
+
+    .find-section-two-location h2 {
+        margin-bottom: 18px;
+    }
+
+
+    #find-icon-map {
+        text-decoration: none;
+        color: rgb(151, 211, 211);
+        transition: all 0.2s;
+    }
+
+    #find-icon-map:hover {
+        color: rgb(51, 123, 123);
+    }
+
+
+    /* contact us page */
+
+
+    .contact-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 14em;
+    }
+
+    .contacts {
+        text-align: left;
+        color: black;
+    }
+
+    .contacts a {
+        text-decoration: none;
+        color: black;
+        margin: 4em 1em 4em 0;
+    }
+
+    .contacts h3 {
+        margin: 0 0 2em 0;
+    }
+
+    .contact-icons {
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+
+    .contact-img {
+        display: flex;
+        overflow: hidden;
+        justify-content: center;
+        margin: 0 0 4em 0;
+    }
+
+    .contact-img img {
+        height: 19em;
+        width: 60em;
+        ;
+        object-fit: cover;
+        object-position: 0 40%;
+        transition: 0.5s ease;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .trial-button {
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .book-trial {
+        margin: 5em auto 0 auto;
+        text-decoration: none;
+        color: rgb(11, 0, 68);
+        background-color: rgb(219, 255, 255);
+        width: 15.5em;
+        height: 3em;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 16px;
+        font-size: 10px;
+        transition: all 0.2s;
+    }
+
+    .book-trial:hover {
+        background-color: rgb(192, 225, 225);
+    }
+
+
+    #book-trial-header {
+        text-decoration: none;
+        color: rgb(11, 0, 68);
+        background-color: rgb(219, 255, 255);
+        width: 15.5em;
+        height: 3em;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 16px;
+        font-size: 10px;
+        transition: all 0.2s;
+    }
+
+    #book-trial-header:hover {
+        background-color: rgb(192, 225, 225);
+    }
+
+
+
+
+
+
+
+
+
+
 }
