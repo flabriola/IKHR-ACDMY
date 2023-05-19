@@ -623,6 +623,61 @@ footer a:hover {
 }
 
 
+/* contact us page */
+
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 14em;
+}
+
+.contacts {
+    text-align: left;
+    color: black;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: black;
+    margin: 4em 1em 4em 0;
+}
+
+.contacts h3{
+    margin: 0 0 2em 0;
+}
+
+.contact-icons {
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+.contact-img{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 0 4em 0;
+}
+
+.contact-img img {
+    height: 19em;
+    width: 60em;;
+    object-fit: cover;
+    object-position: 0 40%;
+    transition: 0.5s ease;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
