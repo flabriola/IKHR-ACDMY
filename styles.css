@@ -1271,14 +1271,14 @@ h4 {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        margin: 9em 0;
+        margin: 7em 0 8em 0;
     }
 
     #schedule {
         display: flex;
         justify-content: center;
         max-width: 30%;
-        margin: 5em auto;
+        margin: 3em auto 1em auto;
     }
 
     .schedule-grid {
@@ -1288,7 +1288,7 @@ h4 {
 
     .lessons-container {
         display: grid;
-        grid-template-columns: 11em 1px auto;
+        grid-template-columns: 9em 1px auto;
         align-items: center;
         margin: 1em;
     }
@@ -1308,7 +1308,7 @@ h4 {
     }
 
     .lessons-container h3 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .line {
@@ -1334,6 +1334,11 @@ h4 {
 
     #schedule-buttons:hover {
         background-color: rgb(181, 212, 212);
+    }
+
+    #schedule-startdate {
+        max-width: 43em;
+        margin: 0 auto;
     }
 
 
