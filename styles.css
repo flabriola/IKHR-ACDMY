@@ -103,7 +103,7 @@ header a:hover {
 }
 
 #home-icon img {
-    width: 55px;
+    width: 45px;
 }
 
 #location-icon {
@@ -836,7 +836,7 @@ h4 {
     }
 
     .bar1, .bar2 {
-        margin-bottom: 5px;
+        margin-bottom: 4px;
     }
 
 
@@ -1031,6 +1031,10 @@ h4 {
         text-decoration: none;
         color: black;
         font-size: smaller;
+    }
+
+    #home-icon img {
+        width: 40px;
     }
 
 
