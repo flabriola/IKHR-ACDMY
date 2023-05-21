@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="height=device-height, initial-scale=1">
         <title>
             IKHR ACDMY - Find Us
         </title>
@@ -25,6 +26,23 @@
                 <a class="trial-button" href="https://wa.link/0m0ykz"><h3 id="book-trial-header">book free trial</h3></a>
             </div>
         </div>
+    
+        <div class="mobile-header">
+            <div id="mySidepanel" class="sidepanel">
+                <a class = "icon" id = "about-icon" href="about">ABOUT</a>
+                <a class = "icon" id = "schedule-icon" href="schedule">SCHEDULE</a>
+                <a class = "icon" id = "pricing-icon" href="pricing">PRICING</a>
+                <a class = "icon"  href="findus">find us</a>
+                <a class = "icon" id = "contact-icon" href="contact">contact us</a>
+            </div>
+            <div><button class="openbtn" onclick="openNav()"><i class="fa-sharp fa-light fa-bars" style="color: #000000;"></i></button></div>
+    
+            <div class="icon-bar-center"><a class="icon-center" id="home-icon" href="http://ikhracademy.com/"><img src="/images/IKHR-Logo.png"></a></div>
+    
+            <div><a class = "icon-right" id = "location-icon-h" href="findus"></a></div>
+        </div>
+    
+        <script src="script.js"></script>
     </header>
 
 
@@ -33,11 +51,9 @@
 
     <main>
 
-        <body>
-            <div id="home-separator"></div>
-            
+        <body>            
  
-            <section class="find-section-two">
+            <section class="find-section-two" onclick="closeNav()">
                 <div class="find-section-two-image">
                     <a href="findus"><img src="/images/KUB08634-576x1024.jpeg"></a>
                 </div>
@@ -62,7 +78,7 @@
 
     <!--  Footer  -->
 
-    <footer>
+    <footer class="footer-fixed">
         <div class="footer-items">
             <div class="footer-icons-left">
                 <a class = "footer-icons-left" href="findus">find us</a>
