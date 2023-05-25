@@ -467,7 +467,6 @@ h4 {
 .schedule-grid {
     display: grid;
     grid-template-rows: auto auto auto auto auto;
-    opacity: 0.2;
 }
 
 .lessons-container {
